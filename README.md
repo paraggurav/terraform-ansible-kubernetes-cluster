@@ -68,16 +68,6 @@ The playbook performs:
 - Generate Join Command
 - Join Worker Node
 
-## Verification
-kubectl get nodes
-
-NAME      STATUS   ROLES
-master    Ready    control-plane
-worker    Ready    <none>
-
-and  
-
-kubectl get pods -A
 
 ## Future Enhancements
 
