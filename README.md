@@ -73,8 +73,5 @@ The playbook performs:
 
 - Add multiple worker nodes
 - Deploy NGINX using Kubernetes
-- Install Helm
 - Deploy Monitoring Stack
-- Configure Ingress Controller
 - Integrate Jenkins CI/CD
-- Use Terraform Modules
