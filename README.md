@@ -39,20 +39,8 @@ terraform-ansible-kubernetes-cluster/
 - Ubuntu 24.04
 - Linux
 
-  ## Project Workflow
-  Terraform
-      ↓
-AWS EC2 Instances
-      ↓
-Ansible Playbook
-      ↓
-Install Kubernetes
-      ↓
-Initialize Master
-      ↓
-Join Worker
-      ↓
-Ready Kubernetes Cluster
+## Project Workflow
+Terraform -> AWS EC2 Instances -> Ansible Playbook -> Install Kubernetes -> Initialize Master -> Join Worker -> Ready Kubernetes Cluster
 
 
 ## Terraform
