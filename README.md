@@ -1,6 +1,6 @@
 # Kubernetes Cluster Automation using Terraform & Ansible on AWS
 
-Project Overview
+## Project Overview
 This project demonstrates how to provision AWS infrastructure using Terraform and automate Kubernetes cluster installation using Ansible.
 
 The infrastructure consists of:
