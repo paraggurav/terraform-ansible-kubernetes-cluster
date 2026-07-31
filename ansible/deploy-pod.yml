@@ -1,0 +1,10 @@
+---
+- name: Deploy Kubernetes Pod
+  hosts: master
+  gather_facts: no
+
+  tasks:
+    - name: Create Pod
+      kubernetes.core.k8s:
+        state: present
+        src: nginx-pod.yaml

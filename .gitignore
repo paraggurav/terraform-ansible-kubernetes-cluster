@@ -1,0 +1,38 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraform.lock.hcl
+
+# Terraform variables
+terraform.tfvars
+*.auto.tfvars
+
+# SSH Keys
+*.pem
+*.pub
+
+# AWS CLI
+aws/
+awscliv2.zip
+
+# Environment files
+.env
+.env.*
+
+# Ansible
+*.retry
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
