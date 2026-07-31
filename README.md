@@ -22,7 +22,7 @@ terraform-ansible-kubernetes-cluster/
 │
 ├── ansible/
 │   ├── inventory
-│   ├── deploy_k8s.yml
+│   ├── install_k8s.yml
 │   
 │
 │
